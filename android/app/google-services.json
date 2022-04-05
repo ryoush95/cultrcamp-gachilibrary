@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "669909224937",
+    "project_id": "gachi-library-imdc",
+    "storage_bucket": "gachi-library-imdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669909224937:android:fba9a985369d7b7a624f78",
+        "android_client_info": {
+          "package_name": "kr.beaversoft.gachilibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669909224937-m3vs12op90kvi41p78d26l2kc010hldc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqdN4T_6aktbltmJxBYJrMAirCORc1mMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669909224937-m3vs12op90kvi41p78d26l2kc010hldc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

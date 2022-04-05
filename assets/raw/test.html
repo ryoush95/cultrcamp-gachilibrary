@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function onPermissionResult(message) {
+            console.log("onPermissionResult", message);
+        }
+        function fn_set_fcmkey(fcm) {
+            console.log(`fn_set_fcmkey:${fcm}`);
+        }
+        window.onload = function () {
+            document.getElementById('btnBarcode').onclick = function () {
+                if (window.MakeToast && window.MakeToast.postMessage) {
+                    MakeToast.postMessage("Toast Test");
+                }
+            }
+            document.getElementById('btnReqPerm').onclick = function () {
+                if (window.ReqPermission && window.ReqPermission.postMessage) {
+                    ReqPermission.postMessage("PERM");
+                }
+            }
+            document.getElementById('btnReqCall').onclick = function () {
+                if (window.ReqCall && window.ReqCall.postMessage) {
+                    ReqCall.postMessage("114");
+                }
+            }
+            document.getElementById('btnReqCall2').onclick = function () {
+                if (window.ReqCall && window.ReqCall.postMessage) {
+                    ReqCall.postMessage("tel:114");
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<button id="btnBarcode" style="margin-top:20px; height:30px;">Scan Barcode</button>
+<button id="btnReqPerm" style="margin-top:20px; height:30px;">ReqPerm</button>
+<button id="btnReqCall" style="margin-top:20px; height:30px;">114</button>
+<button id="btnReqCall2" style="margin-top:20px; height:30px;">tel:114</button>
+</body>
+</html>

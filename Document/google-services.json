@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1056707118735",
+    "project_id": "gachi-library",
+    "storage_bucket": "gachi-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056707118735:android:4aa36272ce6e648c6c52fa",
+        "android_client_info": {
+          "package_name": "kr.beaversoft.gachilibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056707118735-774dlbigsi6a7vd3f47g2ard9p86gmus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFSDENOLUqtj7A8roBX5Ga8EtMpq3blMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056707118735-774dlbigsi6a7vd3f47g2ard9p86gmus.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1056707118735-0qiifedepc8sa5vqfkk89fe74ftnrnie.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.or.nid.incheon.gachilibrary.gachiLibrary"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
